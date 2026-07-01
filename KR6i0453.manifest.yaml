@@ -1,0 +1,72 @@
+canonical_identifier: bkk:krp/KR6i0453/v1
+canonical_location: https://kanripo.org/bkk/KR6i0453/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說身毛喜豎經
+  identifiers:
+    alt_id:
+    - T17n0757
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0757.xml
+    old_id: T17n0757
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0453_000.yaml, hash: 'sha256:73b8243ff17f9763f3a4304d47679c4dceadad887b32bf37c737057612014edd'}
+  - {seq: 1, filename: KR6i0453_001.yaml, hash: 'sha256:5590786c6e6a2817aa7ef362f86ca69bab2b7549a6e71f44100cabb5db26d8c9'}
+  - {seq: 2, filename: KR6i0453_002.yaml, hash: 'sha256:709416ad9a92a898370ffd4349aedccc8ba1e3aac77aceb17c4020c82b4afddb'}
+  - {seq: 3, filename: KR6i0453_003.yaml, hash: 'sha256:79e2b5b220aff838b561b50e5eb0950fb2d09c2dcb5cadf1a2bd4452ce08a3d4'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0453_001.markers.yaml, hash: 'sha256:0712616e51c8f9bb66e0f02ccdf8eaf115dc926c32fb07d92c9f7ca065fa50bd'}
+  - {seq: 2, role: markers, filename: assets/KR6i0453_002.markers.yaml, hash: 'sha256:77097358cec7ed8348394fdb180e9c0ab9966e949f559b190b9852fdd4f6af09'}
+  - {seq: 3, role: markers, filename: assets/KR6i0453_003.markers.yaml, hash: 'sha256:4b3fdc2188153877bd821ed288ed55df6976636115ee07362ca83d19aa41c235'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0453_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3740
+  label: 佛說身毛喜豎經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0453_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 4121
+  label: 佛說身毛喜豎經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0453_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 4002
+  label: 佛說身毛喜豎經卷下
+  type: juan
+  level: 1
+hash: sha256:587a6bccdaf50cd43dfa5cdda0b31e96e4a3d9c2dfe1a317d995352f1cd3c22f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

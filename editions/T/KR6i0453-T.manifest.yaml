@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6i0453/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0453/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說身毛喜豎經
+  identifiers:
+    krp: KR6i0453
+    cbeta: T17n0757
+    cbeta_old_id: T17n0757
+    authorityid: CA0002944
+    json_key: T0757
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0757.xml
+    old_id: T17n0757
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0453_000-T.yaml, hash: 'sha256:73b8243ff17f9763f3a4304d47679c4dceadad887b32bf37c737057612014edd'}
+  - {seq: 1, filename: KR6i0453_001-T.yaml, hash: 'sha256:8cec2be24419e331afc6bc0611521f8dce5f87d766ed92bee405768c9f58dd8b'}
+  - {seq: 2, filename: KR6i0453_002-T.yaml, hash: 'sha256:90393c7f0ad2933468ebbe3d0a1340d5f07baff2c1a280a1cce2f37fd9392418'}
+  - {seq: 3, filename: KR6i0453_003-T.yaml, hash: 'sha256:cd414c384027bfcff5e159c5d0be6d91cacb5f5a96d6bf176f10805564cff824'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0453_000-T.markers.yaml, hash: 'sha256:3dd5af4ed5553e66a76722934b8ad722b409fe89e4bf446545b9f24652e07fcf'}
+  - {seq: 1, role: markers, filename: assets/KR6i0453_001-T.markers.yaml, hash: 'sha256:2ff47da4a337c1a659cdca748aeb2988f9277c8e505a818356d346a802123301'}
+  - {seq: 2, role: markers, filename: assets/KR6i0453_002-T.markers.yaml, hash: 'sha256:cc29545ea6d231f035d61c6153a6e9e4a7da1ef79d9584b67e59770e0db9eb47'}
+  - {seq: 3, role: markers, filename: assets/KR6i0453_003-T.markers.yaml, hash: 'sha256:5481876e59fd8016fdcda6deb02f7a7de7d4da6a2a191c1b6dfb11e02dc84b7e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0453_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3740
+  label: 佛說身毛喜豎經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0453_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 4121
+  label: 佛說身毛喜豎經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0453_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 4002
+  label: 佛說身毛喜豎經卷下
+  type: juan
+  level: 1
+hash: sha256:2524b5d5106a5618dfd6abfae12884da591037d7d7c1ba1724934934238b430c

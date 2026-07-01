@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0453/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說身毛喜豎經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0757.xml
+    old_id: T17n0757
+hash: sha256:73b8243ff17f9763f3a4304d47679c4dceadad887b32bf37c737057612014edd
