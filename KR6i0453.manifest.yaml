@@ -28,13 +28,14 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0453_000.yaml, hash: 'sha256:73b8243ff17f9763f3a4304d47679c4dceadad887b32bf37c737057612014edd'}
-  - {seq: 1, filename: KR6i0453_001.yaml, hash: 'sha256:5590786c6e6a2817aa7ef362f86ca69bab2b7549a6e71f44100cabb5db26d8c9'}
-  - {seq: 2, filename: KR6i0453_002.yaml, hash: 'sha256:709416ad9a92a898370ffd4349aedccc8ba1e3aac77aceb17c4020c82b4afddb'}
-  - {seq: 3, filename: KR6i0453_003.yaml, hash: 'sha256:79e2b5b220aff838b561b50e5eb0950fb2d09c2dcb5cadf1a2bd4452ce08a3d4'}
+  - {seq: 1, filename: KR6i0453_001.yaml, hash: 'sha256:8cec2be24419e331afc6bc0611521f8dce5f87d766ed92bee405768c9f58dd8b'}
+  - {seq: 2, filename: KR6i0453_002.yaml, hash: 'sha256:90393c7f0ad2933468ebbe3d0a1340d5f07baff2c1a280a1cce2f37fd9392418'}
+  - {seq: 3, filename: KR6i0453_003.yaml, hash: 'sha256:cd414c384027bfcff5e159c5d0be6d91cacb5f5a96d6bf176f10805564cff824'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0453_001.markers.yaml, hash: 'sha256:0712616e51c8f9bb66e0f02ccdf8eaf115dc926c32fb07d92c9f7ca065fa50bd'}
-  - {seq: 2, role: markers, filename: assets/KR6i0453_002.markers.yaml, hash: 'sha256:77097358cec7ed8348394fdb180e9c0ab9966e949f559b190b9852fdd4f6af09'}
-  - {seq: 3, role: markers, filename: assets/KR6i0453_003.markers.yaml, hash: 'sha256:4b3fdc2188153877bd821ed288ed55df6976636115ee07362ca83d19aa41c235'}
+  - {seq: 0, role: markers, filename: assets/KR6i0453_000.markers.yaml, hash: 'sha256:36693c214657f386776ac0a7b4ade17d4a0ccc4f880839e7a3fc9e668b73a7db'}
+  - {seq: 1, role: markers, filename: assets/KR6i0453_001.markers.yaml, hash: 'sha256:492a608f2a7b264e5b4a41be716cfbe12e9063c21f04fa0f17dfd8dce98645c0'}
+  - {seq: 2, role: markers, filename: assets/KR6i0453_002.markers.yaml, hash: 'sha256:6d611fc8df381d3d48debcca8ffe46be5bd8ef1a80ba766656a20d7539bf4a80'}
+  - {seq: 3, role: markers, filename: assets/KR6i0453_003.markers.yaml, hash: 'sha256:395c115845dccc0eb7dca1d7902f7930240d2bcbb6868e0a26bd2a1e8f842d0b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -66,7 +67,4 @@ table_of_contents:
   label: 佛說身毛喜豎經卷下
   type: juan
   level: 1
-hash: sha256:587a6bccdaf50cd43dfa5cdda0b31e96e4a3d9c2dfe1a317d995352f1cd3c22f
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:0e2aacb636dab582f9f6233f1c8398376e1cd6fd513b85ecd84e5d64c2281d15
